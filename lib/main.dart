@@ -39,6 +39,7 @@ Future<void> main() async {
   //balance in token erc20
   final balance = await tokens.erc20Balance('0x0eE3DDA02D614468D6bF0cB17480C974F93b1EA6');
   print(balance);
+  print(tokens);
  
   
   //send transaction native token
